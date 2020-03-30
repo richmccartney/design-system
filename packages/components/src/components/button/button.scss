@@ -1,0 +1,100 @@
+@import './button.vars';
+
+// Button
+// --------------------------------------------------
+
+:host {
+    --color: #{$button-color};
+    --background: #{$button-background};
+    --background-hover: #{$button-background-hover};
+    --border-color: #{$button-border-color};
+    --border-radius: #{$button-border-radius};
+    --border-width: #{$button-border-width};
+    --font-family: #{$button-font-family};
+    --font-size: #{$button-font-size};
+    --line-height: #{$button-line-height};
+    --padding-vertical: #{$button-padding};
+    --padding-horizontal: #{$button-padding} * 2;
+        
+    display: inline-block;
+    position: relative;
+
+    padding: 0 var(--padding-horizontal);
+
+    border-width: var(--border-width);
+    border-style: solid;
+    border-radius: var(--border-radius);
+    border-color: var(--border-color);
+
+    background-color: var(--background);
+
+    color: var(--color);
+
+    font-family: var(--font-family);
+
+    font-size: var(--font-size);
+
+    line-height: var(--line-height);
+
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+
+    white-space: normal;
+
+    cursor: pointer;
+    user-select: none;
+
+    -webkit-appearance: none;
+
+    appearance: none;
+    box-sizing: border-box;
+    pointer-events: auto;
+
+    @include foundation-xy-grid-classes(
+        $base-grid: true,
+        $margin-grid: true,
+        $padding-grid: true,
+        $block-grid: true,
+        $collapse: true,
+        $offset: true,
+        $vertical-grid: true,
+        $frame-grid: true
+    );
+}
+ 
+:host(:hover) {
+    --background: var(--background-hover);
+}
+
+:host([disabled]) {
+    cursor: not-allowed;
+}
+
+:host(.primary) {
+    --color: #{$primary-button-color};
+    --background: #{$primary-button-background};
+    --background-hover: #{$primary-button-background-hover};
+    --border-color: #{$primary-button-border-color};
+}
+
+:host(.positive) {
+    --color: #{$positive-button-color};
+    --background: #{$positive-button-background};
+    --background-hover: #{$positive-button-background-hover};
+    --border-color: #{$positive-button-border-color};
+}
+
+:host(.destructive) {
+    --color: #{$destructive-button-color};
+    --background: #{$destructive-button-background};
+    --background-hover: #{$destructive-button-background-hover};
+    --border-color: #{$destructive-button-border-color};
+}
+
+:host(.link) {
+    --color: #{$link-button-color};
+    --background: #{$link-button-background};
+    --background-hover: #{$link-button-background-hover};
+    --border-color: #{$link-button-border-color};
+}

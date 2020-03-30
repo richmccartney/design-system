@@ -1,0 +1,17 @@
+{
+    "color": {
+        "fill": {
+            "icon": {
+                "base": {
+                    "value": "{color.primary.midnight-blue.value}"
+                },
+                "dark-mode": {
+                    "value": "{color.ui.white.value}"
+                },
+                "active": {
+                    "value": "{color.ui.highlight.blue.value}"
+                }
+            }
+        }
+    }
+}

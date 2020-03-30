@@ -1,0 +1,70 @@
+{
+  "name": "@speedbird/components",
+  "version": "0.2.0",
+  "description": "> TODO: description",
+  "author": "Richard McCartney <richard@mccartney.io>",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/components/components.js",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "build.ci": "npm run build -- --ci",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate",
+    "lint": "npm run lint.ts && npm run lint.sass",
+    "lint.fix": "npm run lint.ts.fix && npm run lint.sass.fix",
+    "lint.sass": "stylelint 'src/**/*.scss'",
+    "lint.sass.fix": "npm run lint.sass -- --fix",
+    "lint.ts": "tslint --project .",
+    "lint.ts.fix": "tslint --project . --fix",
+    "storybook": "start-storybook -p 9001 -c .storybook -s dist"
+  },
+  "dependencies": {
+    "@speedbird/design-tokens": "^0.0.4",
+    "@speedbird/icons": "^0.0.4",
+    "@speedbird/styles": "^0.0.5",
+    "foundation-sites": "^6.6.1"
+  },
+  "devDependencies": {
+    "@stencil/core": "^1.8.8",
+    "@stencil/postcss": "^1.0.1",
+    "@stencil/sass": "^1.0.1",
+    "@storybook/addon-a11y": "^5.0.11",
+    "@storybook/addon-actions": "^5.1.11",
+    "@storybook/addon-knobs": "^5.0.11",
+    "@storybook/html": "^5.2.1",
+    "@types/autoprefixer": "^9.6.1",
+    "@types/jest": "24.0.25",
+    "@types/puppeteer": "1.20.3",
+    "autoprefixer": "^9.7.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "jest": "24.9.0",
+    "jest-cli": "24.9.0",
+    "prettier": "^1.19.1",
+    "puppeteer": "1.20.0",
+    "stylelint": "10.1.0",
+    "stylelint-order": "3.0.1",
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-ionic-rules": "0.0.21",
+    "tslint-plugin-prettier": "^2.0.1",
+    "tslint-react": "^3.6.0"
+  },
+  "license": "MIT",
+  "gitHead": "7b73a1749a5ec768dcabd177a4293b5bf3f3d5b8"
+}

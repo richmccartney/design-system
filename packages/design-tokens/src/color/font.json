@@ -1,0 +1,68 @@
+{
+  "color": {
+    "font": {
+      "base": { "value": "{color.primary.midnight-blue.value}" },
+      "error": { "value": "{color.ui.alert.pink.value}" },
+      "link": {
+        "base": {
+          "value": "{color.ui.highlight.blue.value}"
+        },
+        "active": {
+          "value": "{color.primary.midnight-blue.value}"
+        }
+       },
+      "label": { 
+        "base": {
+          "value": "{color.font.base.value}"
+        },
+        "active": {
+          "value": "{color.ui.grey.base.value}"
+        },
+        "disabled": {
+          "value": "{color.ui.grey.25.value}"
+        }
+      },
+      "form": {
+        "field": {
+          "base": {
+            "value": "{color.primary.midnight-blue.value}"
+          },
+          "active": {
+            "value": "{color.font.form.field.base.value}"
+          },
+          "disabled": {
+            "value": "{color.ui.grey.50.value}"
+          },
+          "error": {
+            "value": "{color.font.error.value}"
+          },
+          "required": {
+            "value": "{color.ui.highlight.blue.value}"
+          }
+        },
+        "dropdown": {
+          "base": {
+            "value": "{color.primary.midnight-blue.value}"
+          },
+          "active": {
+            "value": "{color.font.form.field.base.value}"
+          },
+          "disabled": {
+            "value": "{color.ui.grey.50.value}"
+          },
+          "error": {
+            "value": "{color.font.error.value}"
+          },
+          "required": {
+            "value": "{color.ui.highlight.blue.value}"
+          }
+        },
+        "list": {
+          "numbered": {
+            "value": "{color.ui.grey.base.value}"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "shadow": {
+        "bottom": {
+            "value": "0px 2px 4px rgba(0, 0, 0, 0.1)"
+        },
+        "top": {
+            "value": "0px -2px 4px rgba(0, 0, 0, 0.1)"
+        }
+    }
+}

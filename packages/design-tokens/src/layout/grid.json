@@ -1,0 +1,28 @@
+{
+    "layout": {
+        "grid": {
+            "max-width": {
+                "value": 75
+            },
+            "max-columns": {
+                "value": "12"
+            },
+            "margin": {
+                "value": 2
+            },
+            "gutter": {
+                "value": 1
+            }
+        },
+        "mobile": {
+            "grid": {
+                "margin": {
+                    "value": 1
+                },
+                "gutter": {
+                    "value": 0.5
+                }
+            }
+        }
+    }
+}

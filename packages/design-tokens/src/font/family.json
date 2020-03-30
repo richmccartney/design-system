@@ -1,0 +1,20 @@
+{
+    "font": {
+        "family": {
+            "mylius-modern": {
+                "value": "'Mylius Modern', 'Open Sans', Helvetica, Arial, sans-serif"
+            },
+            "open-sans": {
+                "value": "'Open Sans', Helvetica, Arial, sans-serif"
+            },
+            "body": {
+                "value": "{font.family.open-sans.value}",
+                "comment": "For all body copy styles"
+            },
+            "heading": {
+                "value": "{font.family.mylius-modern.value}",
+                "comment": "For all heading copy styles"
+            }
+        }
+    }
+}

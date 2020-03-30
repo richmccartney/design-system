@@ -1,0 +1,24 @@
+{
+    "layout": {
+        "breakpoints": {
+            "xsmall": {
+                "value": "320px"
+            },
+            "small": {
+                "value": "360px"
+            },
+            "medium": {
+                "value": "640px"
+            },
+            "large": {
+                "value": "800px"
+            },
+            "xlarge": {
+                "value": "1024px"
+            },
+            "xxlarge": {
+                "value": "1440px"
+            }
+        }
+    }
+}

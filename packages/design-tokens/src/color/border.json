@@ -1,0 +1,77 @@
+{
+    "color": {
+        "border": {
+            "button": {
+                "secondary": {
+                    "default": {
+                        "base": {
+                            "value": "{color.primary.blue.value}"
+                        }
+                    }
+                },
+                "editorial": {
+                    "default": {
+                        "base": {
+                            "value": "{color.ui.grey.25.value}"
+                        }
+                    }
+                }
+            },
+            "controls": {
+                "checkbox": {
+                    "base": {
+                        "value": "{color.ui.grey.25.value}"
+                    }
+                },
+                "radio": {
+                    "base": {
+                        "value": "{color.ui.grey.25.value}"
+                    }
+                },
+                "toggle": {
+                    "base": {
+                        "value": "{color.ui.grey.25.value}"
+                    }
+                }
+            },
+            "entry": {
+                "base": {
+                    "value": "{color.ui.grey.25.value}"
+                }
+            },
+            "accordion": {
+                "base": {
+                    "value": "{color.ui.grey.25.value}"
+                }
+            },
+            "global-header": {
+                "base": {
+                    "value": "{color.ui.grey.25.value}"
+                }
+            },
+            "forms": {
+                "field": {
+                    "base": {
+                        "value": "{color.ui.grey.25.value}"
+                    },
+                    "active": {
+                        "value": "{color.primary.midnight-blue.value}"
+                    }
+                },
+                "dropdown": {
+                    "base": {
+                        "value": "{color.ui.grey.25.value}"
+                    },
+                    "active": {
+                        "value": "{color.primary.midnight-blue.value}"
+                    }
+                }
+            },
+            "table": {
+                "base": {
+                    "value": "{color.ui.grey.25.value}"
+                }
+            }
+        }
+    }
+}

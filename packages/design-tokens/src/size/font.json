@@ -1,0 +1,125 @@
+{
+  "size": {
+    "font": {
+      "comment": "Font size variables",
+      "heading": {
+        "xlarge": {
+          "value": "3.5",
+          "comment": "Extra large heading size of the font"
+        },
+        "large": {
+          "value": "3",
+          "comment": "Large heading size of the font"
+        },
+        "medium": {
+          "value": "2",
+          "comment": "Medium heading size of the font"
+        },
+        "small": {
+          "value": "1.375",
+          "comment": "Small heading size of the font"
+        }
+      },
+      "body": {
+        "value": "1",
+        "comment": "Body size of the font"
+      },
+      "body-small": {
+        "value": "0.875",
+        "comment": "Small body size of the font"
+      },
+      "uppercase": {
+        "value": "0.875",
+        "comment": "Uppercase size of the font"
+      },
+      "uppercase-small": {
+        "value": "0.75",
+        "comment": "Small uppercase size of the font"
+      },
+      "button": {
+        "value": "{size.font.body.value}",
+        "comment": "Button size of the font"
+      },
+      "button-small": {
+        "value": "{size.font.body-small.value}",
+        "comment": "Small button size of the font"
+      },
+      "form": {
+        "label": {
+          "base": {
+            "value": "{size.font.heading.small.value}"
+          },
+          "active": {
+            "value": "{size.font.body-small.value}"
+          }
+        },
+        "field": {
+          "value": "{size.font.heading.small.value}"
+        },
+        "dropdown": {
+          "value": "{size.font.heading.small.value}"
+        }
+      },
+      "mobile": {
+        "heading": {
+          "xlarge": {
+            "value": "2.5",
+            "comment": "Extra large heading size of the font on mobile"
+          },
+          "large": {
+            "value": "1.875",
+            "comment": "Large heading size of the font on mobile"
+          },
+          "medium": {
+            "value": "1.5",
+            "comment": "Medium heading size of the font on mobile"
+          },
+          "small": {
+            "value": "1.125",
+            "comment": "Small heading size of the font on mobile"
+          }
+        },
+        "body": {
+          "value": "{size.font.body.value}",
+          "comment": "Body size of the font on mobile"
+        },
+        "body-small": {
+          "value": "{size.font.body-small.value}",
+          "comment": "Body size of the font on mobile"
+        },
+        "uppercase": {
+          "value": "{size.font.uppercase.value}",
+          "comment": "Uppercase size of the font"
+        },
+        "uppercase-small": {
+          "value": "{size.font.uppercase-small.value}",
+          "comment": "Small uppercase size of the font"
+        },
+        "button": {
+          "value": "{size.font.mobile.body.value}",
+          "comment": "Button size of the font on mobile"
+        },
+        "button-small": {
+          "value": "{size.font.mobile.body-small.value}",
+          "comment": "Small button size of the font on mobile"
+        },
+        "form": {
+          "label": {
+            "base": {
+              "value": "{size.font.mobile.heading.small.value}"
+            },
+            "active": {
+              "value": "{size.font.mobile.body-small.value}"
+            }
+          },
+          "field": {
+            "value": "{size.font.mobile.heading.small.value}"
+          },
+          "dropdown": {
+            "value": "{size.font.mobile.heading.small.value}"
+          }
+        }
+      }
+    }
+  }
+}

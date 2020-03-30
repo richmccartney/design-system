@@ -1,0 +1,74 @@
+{
+  "color": {
+    "primary": {
+      "blue": {
+        "value": "#2E5C99"
+      },
+      "midnight-blue": {
+        "value": "#021B41"
+      },
+      "red": {
+        "value": "#CE210F"
+      }
+    },
+    "ui": {
+      "white": {
+        "value": "#FFFFFF"
+      },
+      "grey": {
+        "base": {
+          "value": "#747682"
+        },
+        "50": {
+          "value": "#B6B7BD"
+        },
+        "25": {
+          "value": "#D8D9DC"
+        },
+        "10": {
+          "value": "#ECECED"
+        }
+      },
+      "highlight": {
+        "blue": {
+          "value": "#2671D3"
+        },
+        "red": {
+          "value": "#E8111C"
+        }
+      },
+      "alert": {
+        "pink": {
+          "value": "#CC0066"
+        }
+      },
+      "dark-mode": {
+        "base": {
+          "blue-25": {
+            "value": "#3A4668"
+          },
+          "blue-10": {
+            "value": "#11294C"
+          }
+        }
+      }
+    },
+    "tier": {
+      "blue": {
+        "value": "{color.primary.blue.value}"
+      },
+      "bronze": {
+        "value": "#9E6B47"
+      },
+      "silver": {
+        "value": "#707372"
+      },
+      "gold": {
+        "value": "#987000"
+      },
+      "premier": {
+        "value": "#101820"
+      }
+    }
+  }
+}

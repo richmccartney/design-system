@@ -1,0 +1,66 @@
+{
+    "size": {
+        "spacing": {
+            "none": {
+                "value": "0"
+            },
+            "xsmall": {
+                "value": "0.5"
+            },
+            "small": {
+                "value": "1"
+            },
+            "medium": {
+                "value": "1.5"
+            },
+            "large": {
+                "value": "2"
+            },
+            "xlarge": {
+                "value": "3"
+            },
+            "xxlarge": {
+                "value": "4"
+            },
+            "xxxlarge": {
+                "value": "8"
+            },
+            "heading": {
+                "top": {
+                    "value": "{size.spacing.xlarge.value}"
+                },
+                "bottom": {
+                    "value": "{size.spacing.small.value}"
+                }
+            },
+            "heading-small": {
+                "value": "{size.spacing.medium.value}"
+            },
+            "paragraph": {
+                "value": "{size.spacing.small.value}"
+            },
+            "section": {
+                "large": {
+                    "value": "{size.spacing.large.value}"
+                },
+                "xlarge": {
+                    "value": "{size.spacing.xlarge.value}"
+                },
+                "xxlarge": {
+                    "value": "{size.spacing.xxlarge.value}"
+                }
+            },
+            "list": {
+                "base": {
+                    "value": "{size.spacing.small.value}"
+                },
+                "bullet": {
+                    "padding": "{size.spacing.xsmall.value}"
+                },
+                "number": {
+                    "padding": "{size.spacing.xsmall.value}"
+                }
+            }
+        }
+    }
+}

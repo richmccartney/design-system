@@ -1,0 +1,72 @@
+{
+    "z-index": {
+        "base": {
+            "100": {
+                "value": "100"
+            },
+            "200": {
+                "value": "200"
+            },
+            "300": {
+                "value": "300"
+            },
+            "400": {
+                "value": "400"
+            },
+            "500": {
+                "value": "500"
+            },
+            "600": {
+                "value": "600"
+            },
+            "700": {
+                "value": "700"
+            },
+            "800": {
+                "value": "800"
+            },
+            "900": {
+                "value": "900"
+            },
+            "1000": {
+                "value": "1000"
+            }
+        },
+        "deep": {
+            "value": "-999999"
+        },
+        "default": {
+            "value": "1"
+        },
+        "masked": {
+            "value": "{z-index.base.100.value}"
+        },
+        "mask": {
+            "value": "{z-index.base.200.value}"
+        },
+        "sticky": {
+            "value": "{z-index.base.300.value}"
+        },
+        "header": {
+            "value": "{z-index.base.400.value}"
+        },
+        "toast": {
+            "value": "{z-index.base.500.value}"
+        },
+        "dropdown": {
+            "value": "{z-index.base.600.value}"
+        },
+        "overlay": {
+            "value": "{z-index.base.700.value}"
+        },
+        "spinner": {
+            "value": "{z-index.base.800.value}"
+        },
+        "modal": {
+            "value": "{z-index.base.900.value}"
+        },
+        "popup": {
+            "value": "{z-index.base.1000.value}"
+        }
+    }
+}

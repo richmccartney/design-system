@@ -1,0 +1,134 @@
+{
+    "color": {
+        "background": {
+            "base": {
+                "value": "{color.ui.white.value}"
+            },
+            "button": {
+                "primary": {
+                    "dark": {
+                        "base": {
+                            "value": "{color.primary.blue.value}"
+                        },
+                        "active": {
+                            "value": "{color.ui.highlight.blue.value}"
+                        },
+                        "disabled": {
+                            "value": "{color.ui.grey.25.value}"
+                        }
+                    },
+                    "light": {
+                        "base": {
+                            "value": "{color.ui.white.value}"
+                        },
+                        "active": {
+                            "value": "{color.ui.highlight.blue.value}"
+                        },
+                        "disabled": {
+                            "value": "{color.ui.grey.25.value}"
+                        }
+                    }
+                },
+                "secondary": {
+                    "default": {
+                        "base": {
+                            "value": "transparent"
+                        },
+                        "active": {
+                            "value": "{color.ui.highlight.blue.value}"
+                        },
+                        "disabled": {
+                            "value": "{color.ui.grey.25.value}"
+                        }                       
+                    },
+                    "quiet": {
+                        "base": {
+                            "value": "transparent"
+                        },
+                        "active": {
+                            "value": "transparent"
+                        },
+                        "disabled": {
+                            "value": "transparent"
+                        }
+                    }
+                },
+                "special": {
+                    "base": {
+                        "value": "{color.primary.red.value}"
+                    },
+                    "active": {
+                        "value": "{color.ui.highlight.red.value}"
+                    },
+                    "disabled": {
+                        "value": "{color.ui.grey.25.value}"
+                    }
+                },
+                "editorial": {
+                    "base": {
+                        "base": {
+                            "value": "transparent"
+                        },
+                        "active": {
+                            "value": "transparent"
+                        },
+                        "disabled": {
+                            "value": "transparent"
+                        }
+                    }
+                }
+            },
+            "controls": {
+                "checkbox": {
+                    "base": {
+                        "value": "{color.ui.white.value}"
+                    },
+                    "active": {
+                        "value": "{color.primary.midnight-blue.value}"
+                    }
+                },
+                "radio": {
+                    "base": {
+                        "value": "{color.ui.white.value}"
+                    }
+                },
+                "toggle": {
+                    "base": {
+                        "value": "{color.ui.white.value}"
+                    },
+                    "active": {
+                        "value": "{color.primary.midnight-blue.value}"
+                    }
+                }
+            },
+            "global-header": {
+                "base": {
+                    "value": "{color.background.base.value}"
+                }
+            },
+            "modal": {
+                "base": {
+                    "value": "{color.background.base.value}"
+                }
+            },
+            "card": {
+                "base": {
+                    "value": "rgba(255, 255, 255, 0.6)"
+                },
+                "keyline": {
+                    "value": "transparent"
+                }
+            },
+            "badge": {
+                "base": {
+                    "value": "{color.ui.grey.25.value}"
+                }
+            },
+            "list": {
+                "bullet": {
+                  "value": "{color.ui.grey.base.value}"
+                }
+            }
+        }
+    }
+}

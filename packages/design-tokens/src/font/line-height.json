@@ -1,0 +1,78 @@
+{
+    "font": {
+        "line-height": {
+            "base": {
+                "value": 1.5
+            },
+            "body": {
+                "value": "{font.line-height.base.value}"
+            },
+            "body-small": {
+                "value": 1.25
+            },
+            "heading": {
+                "xlarge": {
+                    "value": 4.125
+                },
+                "large": {
+                    "value": 3.75
+                },
+                "medium": {
+                    "value": 2.625
+                },
+                "small": {
+                    "value": 2
+                }
+            },
+            "uppercase": {
+                "value": 1.125
+            },
+            "uppercase-small": {
+                "value": 1
+            },
+            "button": {
+                "value": "{font.line-height.base.value}"
+            },
+            "button-small": {
+                "value": 1.25
+            },
+            "mobile": {
+                "base": {
+                    "value": 1.5
+                },
+                "body": {
+                    "value": "{font.line-height.base.value}"
+                },
+                "body-small": {
+                    "value": 1.25
+                },
+                "heading": {
+                    "xlarge": {
+                        "value": 3.125
+                    },
+                    "large": {
+                        "value": 2.5
+                    },
+                    "medium": {
+                        "value": 2.125
+                    },
+                    "small": {
+                        "value": 1.75
+                    }
+                },
+                "uppercase": {
+                    "value": 1.125
+                },
+                "uppercase-small": {
+                    "value": 1
+                },
+                "button": {
+                    "value": "{font.line-height.base.value}"
+                },
+                "button-small": {
+                    "value": 1.25
+                }
+            }
+        }
+    }
+}

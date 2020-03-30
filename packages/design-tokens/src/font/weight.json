@@ -1,0 +1,57 @@
+{
+    "font": {
+        "weight": {
+            "100": {
+                "value": 100
+            },
+            "200": {
+                "value": 200
+            },
+            "300": {
+                "value": 300
+            },
+            "400": {
+                "value": 400
+            },
+            "500": {
+                "value": 500
+            },
+            "600": {
+                "value": 600
+            },
+            "700": {
+                "value": 700
+            },
+            "800": {
+                "value": 800
+            },
+            "900": {
+                "value": 900
+            }
+        },
+        "body": {
+            "value": "{font.weight.300.value}"
+        },
+        "body-small": {
+            "value": "{font.weight.300.value}"
+        },
+        "heading": {
+            "value": "{font.weight.300.value}"
+        },
+        "uppercase": {
+            "value": "{font.weight.400.value}"
+        },
+        "uppercase-small": {
+            "value": "{font.weight.400.value}"
+        },
+        "button": {
+            "value": "{font.weight.400.value}"
+        },
+        "button-small": {
+            "value": "{font.weight.400.value}"
+        },
+        "emphasis": {
+            "value": "{font.weight.400.value}"
+        }
+    }
+}
